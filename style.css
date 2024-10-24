@@ -1,0 +1,184 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100dvb;
+    align-items: center;
+    align-content: center;
+}
+
+.parent{
+    padding: 100px;
+}
+
+.up{
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    }
+
+.products{
+    color: hsl(300, 43%, 22%);
+    
+}
+
+.stars{
+    margin-bottom: 20px;
+}
+
+.box1{
+    height: 30px;
+    width: 400px;
+    background-color: hsl(333, 80%,    67%, .2);
+    color:hsl(300, 43%, 22%);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.box2{
+    height: 30px;
+    width: 400px;
+    background-color: hsl(333, 80%, 67%, .2);
+    color:hsl(300, 43%, 22%);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-left: 100px;
+    display: flex;
+
+}
+.box3{
+    height: 30px;
+    width: 400px;
+    background-color: hsl(333, 80%, 67%, .2);
+    color:hsl(300, 43%, 22%);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-left: 150px;
+    display: flex;
+    flex
+}
+
+svg{
+    margin: 2px;
+}
+
+.rated{
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.down{
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    
+}
+
+.colton{
+    height: 200px;
+    width: 350px;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.irene{
+    height: 200px;
+    width: 350px;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.anne{
+    height: 200px;
+    width: 350px;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+img{
+    border-radius: 50px;
+    height: 50px;
+    width: 50;
+    float: left;
+    
+}
+.vb{
+    color: magenta;
+    margin-left: 55px;
+    margin-top: 1px;
+}
+b{
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 500px){
+    .up{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .stars{
+        align-items: center;
+        align-content: center;
+    }
+
+    .box1{
+        height: 50px;
+        margin: 0;
+    }
+
+
+    .box2{
+        height: 50px;
+        margin: 0;
+        
+    }
+
+    .box3{
+        height: 50px;
+        margin: 0;
+        }
+
+    .rated{
+        margin: 0;
+        margin-top: 20px;
+    }
+    
+    svg{
+        position: relative;
+        left: 125px;
+    }
+
+        .down{
+            flex-direction: column;
+            align-items: center;
+            align-items: center;
+            
+        }
+    
+        .colton{
+            margin: 0;
+        }
+    
+        .irene{
+           margin: 0;
+        }
+    
+        .anne{
+            margin: 0;
+        }
+    }
+
+
